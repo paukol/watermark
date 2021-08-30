@@ -95,7 +95,7 @@ const prepareOutputFilename = (filename) => {
         options.watermarkImage = image.filename;
         if (fs.existsSync(`./img/${options.inputImage}`) && fs.existsSync(`./img/${options.watermarkImage}`)){
             addImageWatermarkToImage('./img/' + options.inputImage, './img/' + prepareOutputFilename(options.inputImage), './img/' + options.watermarkImage);
-          } else process.stdout.write('Something went wrong... Pls try again');
+          } else process.stdout.write('Something went wrong... Try again!');
         }
     };
 
