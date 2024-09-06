@@ -6,7 +6,7 @@
   "author": "Paulina Kolonczyk <paulinakolonczyk@interia.pl>",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "6.5.0",
-    "jimp": "0.6.4"
+    "inquirer": "9.0.0",
+    "jimp": "0.17.2"
   }
 }
